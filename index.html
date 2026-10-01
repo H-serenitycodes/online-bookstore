@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BrightReads - Online Bookstore</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= TOP BAR ================= -->
+
+<div class="top-bar">
+
+    <div class="top-left">
+        <span>
+            <i class="fa-solid fa-book-open"></i>
+            Good books
+        </span>
+
+        <span>•</span>
+
+        <span>
+            <i class="fa-solid fa-tag"></i>
+            Better minds
+        </span>
+
+        <span>•</span>
+
+        <span>
+            <i class="fa-solid fa-star"></i>
+            A Brighter Future
+        </span>
+    </div>
+
+    <div class="delivery">
+        <i class="fa-solid fa-truck"></i>
+        Free delivery on orders over ksh.800
+    </div>
+
+</div>
+
+
+<!-- ================= NAVIGATION ================= -->
+
+<header class="navbar">
+
+    <div class="logo">
+
+        <div class="logo-icon">
+            <i class="fa-solid fa-book-open"></i>
+        </div>
+
+        <div>
+            <h2>Bright<span>Reads</span></h2>
+            <small>ONLINE BOOKSTORE</small>
+        </div>
+
+    </div>
+
+
+    <nav class="nav-links">
+
+        <a href="#" class="active">Home</a>
+        <a href="#books">Books</a>
+        <a href="#categories">Categories</a>
+        <a href="#bestsellers">Best Sellers</a>
+        <a href="#new">New Arrivals</a>
+        <a href="#offers">Offers</a>
+
+    </nav>
+
+
+    <div class="nav-actions">
+
+        <div class="search-box">
+            <input type="text" id="navSearch" placeholder="Search books...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <button class="icon-button cart-button">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span id="cartCount">0</span>
+        </button>
+
+        <button class="icon-button">
+            <i class="fa-regular fa-user"></i>
+        </button>
+
+        <button class="menu-button" id="menuButton">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <p class="hero-small">
+            READ <span>•</span> LEARN <span>•</span> GROW
+        </p>
+
+        <h1>
+            Books for <span>Every</span><br>
+            Stage of Life
+        </h1>
+
+        <p class="hero-text">
+            From curious kids to ambitious adults, find the
+            perfect book at the right price.
+        </p>
+
+        <a href="#books" class="primary-button">
+            Shop Now
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CATEGORIES ================= -->
+
+<section class="section" id="categories">
+
+    <div class="section-heading">
+
+        <h2>Shop by Category</h2>
+
+        <!-- <a href="#">
+            View All Categories
+            <i class="fa-solid fa-plus"></i>
+        </a> -->
+
+    </div>
+
+
+    <div class="category-grid">
+
+        <div class="category-card brown">
+            <i class="fa-solid fa-book-open"></i>
+            <span>Fiction</span>
+        </div>
+
+        <div class="category-card orange">
+            <i class="fa-regular fa-heart"></i>
+            <span>Romance</span>
+        </div>
+
+        <div class="category-card green">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span>Mystery</span>
+        </div>
+
+        <div class="category-card brown">
+            <i class="fa-solid fa-spa"></i>
+            <span>Self-help</span>
+        </div>
+
+        <div class="category-card orange">
+            <i class="fa-solid fa-chart-column"></i>
+            <span>Business</span>
+        </div>
+
+        <div class="category-card green">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Academic</span>
+        </div>
+
+        <div class="category-card orange">
+            <i class="fa-regular fa-face-smile"></i>
+            <span>Children</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FEATURED BOOKS ================= -->
+
+<section class="section" id="books">
+
+    <div class="section-heading">
+
+        <h2>Featured Books</h2>
+
+        <!-- <a href="#">
+            View All
+            <i class="fa-solid fa-arrow-right"></i>
+        </a> -->
+
+    </div>
+
+
+    <div class="book-grid">
+
+        <!-- BOOK 1 -->
+
+        <div class="book-card">
+
+            <div class="book-image">
+                <img src="atomic habits.jpg" alt="Atomic Habits">
+            </div>
+
+            <h3>Atomic Habits</h3>
+            <p class="author">James Clear</p>
+
+            <div class="book-price">KSh 650</div>
+
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                4.8 (130)
+            </div>
+
+            <p class="description">
+                Small changes, remarkable results.
+                Build better habits.
+            </p>
+
+            <button class="add-cart">
+                Add to Cart
+            </button>
+
+        </div>
+
+        <!-- BOOK 2-->
+
+        <div class="book-card">
+
+            <div class="book-image">
+                <img src="midnight library.jpg" alt="The Midnight Library">
+            </div>
+
+            <h3>The Midnight Library</h3>
+            <p class="author">Matt Haig</p>
+
+            <div class="book-price">KSh 950</div>
+
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                4.6 (78)
+            </div>
+
+            <p class="description">
+                A beautiful story about choices,
+                possibilities and life.
+            </p>
+
+            <button class="add-cart">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <!-- BOOK 3-->
+
+        <div class="book-card">
+
+            <div class="book-image">
+                <img src="dora the explorer.jpg" alt="Dora the Explorer">
+            </div>
+
+            <h3>Dora the Explorer</h3>
+            <p class="author">Christine Ricci</p>
+
+            <div class="book-price">KSh 850</div>
+
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                4.8 (210)
+            </div>
+
+            <p class="description">
+                Funny stories and adventures
+                for kids and young readers.
+            </p>
+
+            <button class="add-cart">
+                Add to Cart
+            </button>
+
+        </div>
+
+                <!-- Book 4 -->
+        <div class="book-card">
+            <div class="book-image">
+            <img src="steve harvey book.jpg" alt="Stevet Harvey's book">
+             </div>
+            <h3>Act Like a Success</h3>
+            <p class="author">Steve Harvey</p>
+             <div class="book-price">KSh 850</div>
+
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                4.8 (210)
+            </div>
+
+            <p class="description">
+            the book serves as a practical roadmap for personal growth, guiding
+             readers on how to pivot from a life of mere survival to one of true abundance.
+            </p>
+
+            <button class="add-cart">
+                Add to Cart
+            </button>
+        
+        </div>
+
+                 <!-- Book 5 -->
+        <div class="book-card">
+            <div class="book-image">
+                <img src="The History Of The World.jpg" alt="The History Of The World">
+            </div>
+            <h3>The History Of The World</h3>
+            <p class="author">Jon Snow</p>
+
+            <div class="book-price">KSh 850</div>
+
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                4.8 (210)
+            </div>
+
+            <p class="description">
+                A comprehensive look at the events that shaped our world.
+            </p>
+
+            <button class="add-cart">
+                Add to Cart
+            </button>
+
+        </div>
+ 
+           <!-- Book 6    -->
+            <div class="book-card">
+            <div class="book-image">
+                <img src="it end with us.jpg" alt="It End With Us">
+            </div>
+            <h3>It End With Us</h3>
+            <p class="author">Collen Hoover</p>
+
+            <div class="book-price">KSh 900</div>
+
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                4.8 (210)
+            </div>
+
+            <p class="description">
+                A powerful story of love, resilience, and the strength to break
+                 free from toxic cycles.
+            </p>
+
+            <button class="add-cart">
+                Add to Cart
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= BOOKS OF THE MONTH ================= -->
+
+<section class="monthly">
+
+    <div class="monthly-text">
+
+        <h2>Books of the Month</h2>
+
+        <p>
+            Handpicked reads you'll love.
+        </p>
+
+        <button class="light-button">
+            Explore All
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+    </div>
+
+
+    <button class="slider-button prev" id="prevBook">
+        <i class="fa-solid fa-chevron-left"></i>
+    </button>
+
+
+    <div class="monthly-books">
+
+        <div class="mini-book">
+            <img src="the trip.jpg" alt="The trip">
+            <div>
+                <strong>The Trip</strong>
+                <small>Phoebe Morgan</small>
+                <b>KSh 850</b>
+                <span>★ 4.5</span>
+            </div>
+        </div>
+
+        <div class="mini-book">
+            <img src="Rich dad poor dad.jpg" alt="Rich dad poor dad">
+            <div>
+                <strong>Rich dad poor dad</strong>
+                <small>Robert Kiyosaki</small>
+                <b>KSh 1,250</b>
+                <span>★ 4.8</span>
+            </div>
+        </div>
+
+        <div class="mini-book">
+            <img src="My Husband's Wife by Alice Feeney.jpg" alt="My Husband's Wife by Alice Feeney">
+            <div>
+                <strong>My Husband's Wife</strong>
+                <small>Alice Feeney</small>
+                <b>KSh 1,100</b>
+                <span>★ 4.4</span>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <button class="slider-button next" id="nextBook">
+        <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
+</section>
+
+
+<!-- ================= THREE COLUMNS ================= -->
+
+<section class="three-columns">
+
+
+    <!-- BEST SELLERS -->
+
+    <div class="small-section" id="bestsellers">
+
+        <div class="small-heading">
+            <h2>Best Sellers</h2>
+            <!-- <a href="#">View All →</a> -->
+        </div>
+
+        <div class="rank-book">
+
+            <span>1.</span>
+
+            <img src="atomic habits.jpg" alt="Atomic Habits">
+
+            <div>
+                <strong>Atomic Habits</strong>
+                <small>KSh 650</small>
+            </div>
+
+            <b>★ 4.8</b>
+
+        </div>
+
+
+        <div class="rank-book">
+
+            <span>2.</span>
+
+            <img src="midnight library.jpg" alt="midnight library">
+
+            <div>
+                <strong>The Midnight Library</strong>
+                <small>KSh 950</small>
+            </div>
+
+            <b>★ 4.7</b>
+
+        </div>
+
+
+        <div class="rank-book">
+
+            <span>3.</span>
+
+            <img src="dora the explorer.jpg" alt="Dora the Explorer">
+
+            <div>
+                <strong>Dora the Explorer</strong>
+                <small>KSh 850</small>
+            </div>
+
+            <b>★ 4.6</b>
+
+        </div>
+
+    </div>
+
+
+    <!-- NEW ARRIVALS -->
+
+    <div class="small-section" id="new">
+
+        <div class="small-heading">
+            <h2>New Arrivals</h2>
+            <!-- <a href="#">View All →</a> -->
+        </div>
+
+        <div class="rank-book">
+
+            <span>1.</span>
+
+            <img src="kids book 1.jpg" alt="The magic of today">
+
+            <div>
+                <strong>The Magic of Today</strong>
+                <small>KSh 1,000</small>
+            </div>
+
+            <b>★ 4.7</b>
+
+        </div>
+
+
+        <div class="rank-book">
+
+            <span>2.</span>
+
+            <img src="The Woman I Was Before.jpg" alt="The Woman I Was Before">
+
+            <div>
+                <strong>The Woman I Was Before</strong>
+                <small>KSh 1,200</small>
+            </div>
+
+            <b>★ 4.6</b>
+
+        </div>
+
+
+        <div class="rank-book">
+
+            <span>3.</span>
+
+            <img src="An Academic Affair.jpg" alt="An Academic Affair">
+
+            <div>
+                <strong>An Academic Affair</strong>
+                <small>KSh 1,500</small>
+            </div>
+
+            <b>★ 4.9</b>
+
+        </div>
+
+    </div>
+
+
+    <!-- SPECIAL OFFERS -->
+
+    <div class="offer-card" id="offers">
+
+        <div>
+
+            <h2>Special Offers</h2>
+
+            <h3>
+                Buy 2<br>
+                Get 1 Free
+            </h3>
+
+            <p>
+                Gift any books.<br>
+                Read our collection.
+            </p>
+
+            <button>
+                Shop Now
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= OUR BOOKS TABLE ================= -->
+
+<section class="our-books">
+
+    <div class="section-heading">
+
+        <h2>Our Books</h2>
+
+    </div>
+
+
+    <div class="filters">
+
+        <div class="table-search">
+            <input
+                type="text"
+                id="bookSearch"
+                placeholder="Search by title or author..."
+            >
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+
+        <select>
+            <option>All Genres</option>
+            <option>Fiction</option>
+            <option>Romance</option>
+            <option>Business</option>
+            <option>Academic</option>
+        </select>
+
+
+        <select>
+            <option>Price Range</option>
+            <option>Below KSh 500</option>
+            <option>KSh 500 - 1000</option>
+            <option>Above KSh 1000</option>
+        </select>
+
+
+        <select>
+            <option>Rating</option>
+            <option>4.5+</option>
+            <option>4.0+</option>
+        </select>
+
+
+        <button class="clear-button">
+            Clear Filters
+        </button>
+
+    </div>
+
+
+    <div class="table-wrapper">
+
+        <table id="booksTable">
+
+            <thead>
+
+                <tr>
+                    <th>Book</th>
+                    <th>Author</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                <tr>
+
+                    <td>
+                        <div class="table-book">
+                            <img src="atomic habits.jpg" alt="Atomic Habits">
+                            <span>Atomic Habits</span>
+                        </div>
+                    </td>
+
+                    <td>James Clear</td>
+
+                    <td>KSh 650</td>
+
+                    <td>
+                        <button class="table-cart">
+                            Add to Cart
+                        </button>
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        <div class="table-book">
+                            <img src="midnight library.jpg" alt="The Midnight Library">
+                            <span>The Midnight Library</span>
+                        </div>
+                    </td>
+
+                    <td>Matt Haig</td>
+
+                    <td>KSh 950</td>
+
+                    <td>
+                        <button class="table-cart">
+                            Add to Cart
+                        </button>
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        <div class="table-book">
+                            <img src="dora the explorer.jpg" alt="Dora the Explorer">
+                            <span>Dora the Explorer</span>
+                        </div>
+                    </td>
+
+                    <td>Christine Ricci</td>
+
+                    <td>KSh 850</td>
+
+                    <td>
+                        <button class="table-cart">
+                            Add to Cart
+                        </button>
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        <div class="table-book">
+                            <img src="steve harvey book.jpg" alt="Act Like a Success">
+                            <span>Act Like a Success</span>
+                        </div>
+                    </td>
+
+                    <td>Steve Harvey</td>
+
+                    <td>KSh 850</td>
+
+                    <td>
+                        <button class="table-cart">
+                            Add to Cart
+                        </button>
+                    </td>
+
+                </tr>
+                 <tr>
+
+                    <td>
+                        <div class="table-book">
+                            <img src="it end with us.jpg" alt="It End With Us">
+                            <span>It End With Us</span>
+                        </div>
+                    </td>
+
+                    <td>Collen Hoover</td>
+
+                    <td>KSh 900</td>
+
+                    <td>
+                        <button class="table-cart">
+                            Add to Cart
+                        </button>
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <!-- Cart notification -->
+
+    <div class="cart-message" id="cartMessage">
+
+        <div class="check-icon">
+            <i class="fa-solid fa-check"></i>
+        </div>
+
+        <p>
+            Your book has been<br>
+            added to your order!
+        </p>
+
+        <button>
+            View Cart
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- ================= REVIEWS ================= -->
+
+<section class="reviews">
+
+    <div class="section-heading">
+
+        <h2>What Our Readers Say</h2>
+
+        <a href="#">
+            View All Reviews →
+        </a>
+
+    </div>
+
+
+    <div class="review-grid">
+
+
+        <div class="review-card">
+
+            <div class="review-person">
+
+                <img src="ayeisha profile.jpg">
+
+                <div>
+                    <strong>Aisha A.</strong>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                </div>
+
+            </div>
+
+            <p>
+                "Amazing collection and super affordable.
+                I found exactly what I needed for my studies."
+            </p>
+
+            <small>— 3 days ago</small>
+
+        </div>
+
+
+        <div class="review-card">
+
+            <div class="review-person">
+
+                <img src="brenda profile.jpg" alt="Brenda">
+
+                <div>
+                    <strong>Brenda K.</strong>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                </div>
+
+            </div>
+
+            <p>
+                "Great website and delivery was fast.
+                I will definitely shop here again."
+            </p>
+
+            <small>— 2 days ago</small>
+
+        </div>
+
+
+        <div class="review-card">
+
+            <div class="review-person">
+
+                <img src="zeinab profile.jpg" alt="Zeinab">
+
+                <div>
+                    <strong>Zeinab A.</strong>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                </div>
+
+            </div>
+
+            <p>
+                "Books arrived safely and the service
+                was really excellent."
+            </p>
+
+            <small>— 1 week ago</small>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter">
+
+    <div class="newsletter-title">
+
+        <i class="fa-regular fa-envelope"></i>
+
+        <div>
+            <strong>Get updates on new books & offers</strong>
+            <small>
+                Be the first to know about new arrivals,
+                discounts and events.
+            </small>
+        </div>
+
+    </div>
+
+
+    <form id="newsletterForm">
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Enter your email address"
+            required
+        >
+
+        <button type="submit">
+            Subscribe
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-main">
+
+
+        <div class="footer-brand">
+
+            <div class="footer-logo">
+
+                <i class="fa-solid fa-book-open"></i>
+
+                <div>
+                    <h2>Bright<span>Reads</span></h2>
+                    <small>ONLINE BOOKSTORE</small>
+                </div>
+
+            </div>
+
+            <p>
+                Books that inspire, educate and
+                brighten every journey.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Quick Links</h3>
+
+            <a href="#">Home</a>
+            <a href="#books">Books</a>
+            <a href="#categories">Categories</a>
+            <a href="#offers">Offers</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Support</h3>
+
+            <a href="#">Help</a>
+            <a href="#">Shipping & Returns</a>
+            <a href="#">FAQs</a>
+            <a href="#">Contact Us</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Follow Us</h3>
+
+            <div class="social-icons">
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 BrightReads. All rights reserved.
+        </p>
+
+        <div>
+            <a href="#">Read</a>
+            <a href="#">Learn</a>
+            <a href="#">Grow</a>
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- External JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
